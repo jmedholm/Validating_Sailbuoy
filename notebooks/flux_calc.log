@@ -1,315 +1,611 @@
-2023-09-19 11:18:13,850 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
-2023-09-19 11:18:13,855 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:19,465 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
+2023-09-19 15:11:19,468 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:13,868 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
-2023-09-19 11:18:13,884 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
-2023-09-19 11:18:13,896 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
-2023-09-19 11:18:13,905 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
-2023-09-19 11:18:13,910 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
-2023-09-19 11:18:13,914 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,917 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,920 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,922 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,923 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,925 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,926 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,928 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,929 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,930 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,932 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,933 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,934 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:13,934 method C35 | # of iterations:19
-2023-09-19 11:18:13,934 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:19,479 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
+2023-09-19 15:11:19,492 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
+2023-09-19 15:11:19,505 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
+2023-09-19 15:11:19,516 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
+2023-09-19 15:11:19,523 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
+2023-09-19 15:11:19,528 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,532 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,536 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,539 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,541 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,543 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,544 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,546 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,548 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,549 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,551 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,553 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,554 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,555 method C35 | # of iterations:19
+2023-09-19 15:11:19,555 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:13,948 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:19,572 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:13,965 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
-2023-09-19 11:18:13,968 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:19,593 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
+2023-09-19 15:11:19,596 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:13,975 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
-2023-09-19 11:18:13,984 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
-2023-09-19 11:18:13,994 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
-2023-09-19 11:18:14,002 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
-2023-09-19 11:18:14,007 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
-2023-09-19 11:18:14,011 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,015 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,018 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,020 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,022 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,023 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,025 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,026 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,027 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,029 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,030 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,031 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,033 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
-2023-09-19 11:18:14,033 method C35 | # of iterations:19
-2023-09-19 11:18:14,033 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:19,606 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
+2023-09-19 15:11:19,620 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
+2023-09-19 15:11:19,633 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
+2023-09-19 15:11:19,643 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
+2023-09-19 15:11:19,650 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
+2023-09-19 15:11:19,655 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,659 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,663 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,666 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,668 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,670 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,672 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,673 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,675 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,677 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,678 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,680 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,681 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 15:11:19,682 method C35 | # of iterations:19
+2023-09-19 15:11:19,682 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:14,046 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:19,698 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,039 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,488 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,044 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0772 | qsr = -0.0001601
-2023-09-19 11:18:15,048 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,492 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0772 | qsr = -0.0001601
+2023-09-19 15:11:20,495 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:15,059 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0751 | qsr = -0.0001563
-2023-09-19 11:18:15,075 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0744 | qsr = -0.0001546
-2023-09-19 11:18:15,087 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,095 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,099 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,101 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,102 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,103 method C35 | # of iterations:8
-2023-09-19 11:18:15,103 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:20,506 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0751 | qsr = -0.0001563
+2023-09-19 15:11:20,520 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0744 | qsr = -0.0001546
+2023-09-19 15:11:20,533 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,543 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,548 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,551 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,553 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,554 method C35 | # of iterations:8
+2023-09-19 15:11:20,554 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:15,127 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,589 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,132 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0772 | qsr = -0.0001601
-2023-09-19 11:18:15,134 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,593 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0772 | qsr = -0.0001601
+2023-09-19 15:11:20,596 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:15,142 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0751 | qsr = -0.0001563
-2023-09-19 11:18:15,151 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0744 | qsr = -0.0001546
-2023-09-19 11:18:15,160 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,167 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,170 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,172 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,174 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
-2023-09-19 11:18:15,174 method C35 | # of iterations:8
-2023-09-19 11:18:15,174 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:20,607 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0751 | qsr = -0.0001563
+2023-09-19 15:11:20,621 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0744 | qsr = -0.0001546
+2023-09-19 15:11:20,634 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,644 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,649 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,652 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,654 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 15:11:20,655 method C35 | # of iterations:8
+2023-09-19 15:11:20,655 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:15,198 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,690 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,201 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0773 | qsr = -0.0001662
-2023-09-19 11:18:15,204 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,694 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0773 | qsr = -0.0001662
+2023-09-19 15:11:20,697 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:15,211 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0752 | qsr = -0.0001621
-2023-09-19 11:18:15,220 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0745 | qsr = -0.0001603
-2023-09-19 11:18:15,229 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
-2023-09-19 11:18:15,235 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
-2023-09-19 11:18:15,239 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
-2023-09-19 11:18:15,241 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
-2023-09-19 11:18:15,242 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
-2023-09-19 11:18:15,243 method C35 | # of iterations:8
-2023-09-19 11:18:15,243 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:20,708 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0752 | qsr = -0.0001621
+2023-09-19 15:11:20,721 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0745 | qsr = -0.0001603
+2023-09-19 15:11:20,735 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 15:11:20,744 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 15:11:20,749 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 15:11:20,752 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 15:11:20,754 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 15:11:20,755 method C35 | # of iterations:8
+2023-09-19 15:11:20,755 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:15,261 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,782 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,262 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0892 | qsr = -0.0002022
-2023-09-19 11:18:15,262 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,783 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0892 | qsr = -0.0002022
+2023-09-19 15:11:20,783 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:15,262 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.09 | qsr = -0.0002044
-2023-09-19 11:18:15,263 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,264 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,264 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,265 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,265 method C35 | # of iterations:6
-2023-09-19 11:18:15,265 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:20,784 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.09 | qsr = -0.0002044
+2023-09-19 15:11:20,785 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,786 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,787 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,789 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,789 method C35 | # of iterations:6
+2023-09-19 15:11:20,789 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:15,266 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,791 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,267 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0892 | qsr = -0.0002022
-2023-09-19 11:18:15,267 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,792 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0892 | qsr = -0.0002022
+2023-09-19 15:11:20,792 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:15,267 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.09 | qsr = -0.0002044
-2023-09-19 11:18:15,268 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,269 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,269 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,270 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
-2023-09-19 11:18:15,270 method C35 | # of iterations:6
-2023-09-19 11:18:15,270 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:20,793 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.09 | qsr = -0.0002044
+2023-09-19 15:11:20,794 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,795 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,796 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,798 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 15:11:20,798 method C35 | # of iterations:6
+2023-09-19 15:11:20,798 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:15,271 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,800 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:15,271 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0895 | qsr = -0.0002776
-2023-09-19 11:18:15,272 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:20,801 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0895 | qsr = -0.0002776
+2023-09-19 15:11:20,801 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:15,272 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.0904 | qsr = -0.0002814
-2023-09-19 11:18:15,273 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.0002789
-2023-09-19 11:18:15,273 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
-2023-09-19 11:18:15,274 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
-2023-09-19 11:18:15,275 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
-2023-09-19 11:18:15,275 method C35 | # of iterations:6
-2023-09-19 11:18:15,275 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:20,802 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.0904 | qsr = -0.0002814
+2023-09-19 15:11:20,803 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.0002789
+2023-09-19 15:11:20,804 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
+2023-09-19 15:11:20,806 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
+2023-09-19 15:11:20,807 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
+2023-09-19 15:11:20,807 method C35 | # of iterations:6
+2023-09-19 15:11:20,807 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:16,292 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,056 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:16,295 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0573 | qsr = -0.0001311
-2023-09-19 11:18:16,298 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,058 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0573 | qsr = -0.0001311
+2023-09-19 15:11:22,060 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:16,304 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001308
-2023-09-19 11:18:16,312 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001307
-2023-09-19 11:18:16,319 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,323 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,325 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,326 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,328 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,329 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,330 method C35 | # of iterations:9
-2023-09-19 11:18:16,330 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:22,065 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001308
+2023-09-19 15:11:22,071 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001307
+2023-09-19 15:11:22,076 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,079 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,081 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,082 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,083 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,085 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,085 method C35 | # of iterations:9
+2023-09-19 15:11:22,085 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:16,337 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+2023-09-19 15:11:22,092 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
   GustFact = np.sqrt(wind/spd)
 
-2023-09-19 11:18:16,345 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,101 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:18:16,347 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0573 | qsr = -0.0001311
-2023-09-19 11:18:16,349 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,103 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0573 | qsr = -0.0001311
+2023-09-19 15:11:22,104 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:16,352 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001308
-2023-09-19 11:18:16,357 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001307
-2023-09-19 11:18:16,361 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,363 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,364 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,365 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,365 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,366 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
-2023-09-19 11:18:16,367 method C35 | # of iterations:9
-2023-09-19 11:18:16,367 method C35 | # of points that did not converge :0 
+2023-09-19 15:11:22,109 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001308
+2023-09-19 15:11:22,115 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001307
+2023-09-19 15:11:22,120 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,123 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,125 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,126 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,128 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,129 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 15:11:22,129 method C35 | # of iterations:9
+2023-09-19 15:11:22,129 method C35 | # of points that did not converge :0 
 
-2023-09-19 11:18:16,371 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+2023-09-19 15:11:22,136 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
   GustFact = np.sqrt(wind/spd)
 
-2023-09-19 11:18:16,375 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:534: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,142 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:534: RuntimeWarning: invalid value encountered in power
   xtmp = np.power(1-alpha*zol, beta)
 
-2023-09-19 11:18:16,377 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:420: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,144 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:420: RuntimeWarning: invalid value encountered in power
   xtmp = np.power(1-alpha*zol, beta)
 
-2023-09-19 11:18:16,377 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:709: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,145 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:709: RuntimeWarning: invalid value encountered in log
   hol0 <= -1.574, wind*kappa/(np.log(-1.574*monob/zo) -
 
-2023-09-19 11:18:16,377 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:712: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:712: RuntimeWarning: invalid value encountered in power
   1.14*(np.power(-hin[0]/monob, 1/3) -
 
-2023-09-19 11:18:16,377 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:716: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:716: RuntimeWarning: invalid value encountered in log
   hol0 > 1, wind*kappa/(np.log(monob/zo)+5-5*zo/monob +
 
-2023-09-19 11:18:16,377 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:717: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:717: RuntimeWarning: invalid value encountered in log
   5*np.log(hin[0]/monob)+hin[0]/monob-1), usr)
 
-2023-09-19 11:18:16,377 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:723: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:723: RuntimeWarning: invalid value encountered in log
   hol1 < -0.465, kappa*dt/(np.log((-0.465*monob)/zot) -
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:726: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:726: RuntimeWarning: invalid value encountered in power
   np.power(-hin[1]/monob, -1/3))), tsr)
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:729: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:729: RuntimeWarning: invalid value encountered in log
   hol1 > 1, kappa*(dt)/(np.log(monob/zot)+5-5*zot/monob +
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:730: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:730: RuntimeWarning: invalid value encountered in log
   5*np.log(hin[1]/monob)+hin[1]/monob-1), tsr)
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:736: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:736: RuntimeWarning: invalid value encountered in log
   hol2 < -0.465, kappa*dq/(np.log((-0.465*monob)/zoq) -
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:740: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,146 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:740: RuntimeWarning: invalid value encountered in power
   np.power(-hin[2]/monob, -1/3))), qsr)
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:742: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,147 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:742: RuntimeWarning: invalid value encountered in log
   qsr = np.where(hol2 > 1, kappa*dq/(np.log(monob/zoq)+5-5*zoq/monob +
 
-2023-09-19 11:18:16,378 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:743: RuntimeWarning: invalid value encountered in log
+2023-09-19 15:11:22,147 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:743: RuntimeWarning: invalid value encountered in log
   5*np.log(hin[2]/monob) +
 
-2023-09-19 11:18:16,378 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.292 | tsr = -0.061 | qsr = -0.0001601
-2023-09-19 11:18:16,379 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:11:22,147 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.292 | tsr = -0.061 | qsr = -0.0001601
+2023-09-19 15:11:22,148 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:18:16,382 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0607 | qsr = -0.0001594
-2023-09-19 11:18:16,385 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,388 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,389 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,390 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,391 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,391 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,392 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,393 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,394 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,395 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,395 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,396 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,397 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001593
-2023-09-19 11:18:16,398 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001593
-2023-09-19 11:18:16,398 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,399 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,400 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,401 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,402 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,403 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,404 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,405 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,406 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,407 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,407 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,408 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,409 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,410 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
-2023-09-19 11:18:16,410 method UA | # of iterations:30
-2023-09-19 11:18:16,410 method UA | # of points that did not converge :1 
+2023-09-19 15:11:22,153 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0607 | qsr = -0.0001594
+2023-09-19 15:11:22,158 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,162 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,165 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,166 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,167 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,169 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,170 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,171 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,173 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,174 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,175 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,177 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,178 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001593
+2023-09-19 15:11:22,179 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001593
+2023-09-19 15:11:22,180 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,182 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,183 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,184 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,186 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,187 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,188 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,189 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,191 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,192 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,193 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,194 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,196 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,197 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 15:11:22,197 method UA | # of iterations:30
+2023-09-19 15:11:22,197 method UA | # of points that did not converge :1 
 
-2023-09-19 11:18:16,415 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+2023-09-19 15:11:22,204 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
   GustFact = np.sqrt(wind/spd)
 
-2023-09-19 11:19:09,181 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.148 | qsr = -0.0001898
-2023-09-19 11:19:09,182 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 15:35:54,656 No such comm target registered: jupyter.widget.control
+2023-09-19 15:35:54,658 No such comm: 59e8eb8c-2790-4f6c-bea6-d559c053dfcc
+2023-09-19 15:47:03,668 /tmp/ipykernel_3928378/1563455237.py:14: RuntimeWarning: invalid value encountered in sqrt
+  angles = 2 * np.arctan2(np.sqrt(a), np.sqrt(1 - a))
+
+2023-09-19 16:21:10,210 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
+2023-09-19 16:21:10,213 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:19:09,183 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 16:21:10,223 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
+2023-09-19 16:21:10,239 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
+2023-09-19 16:21:10,252 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
+2023-09-19 16:21:10,262 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
+2023-09-19 16:21:10,269 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
+2023-09-19 16:21:10,274 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,278 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,282 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,285 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,287 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,289 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,291 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,292 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,294 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,296 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,297 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,299 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,301 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,301 method C35 | # of iterations:19
+2023-09-19 16:21:10,301 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:10,318 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:19:09,184 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.312 | tsr = -0.1436 | qsr = -0.0001832
-2023-09-19 11:19:09,187 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.316 | tsr = -0.1413 | qsr = -0.0001806
-2023-09-19 11:19:09,189 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.317 | tsr = -0.1407 | qsr = -0.0001797
-2023-09-19 11:19:09,191 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001794
-2023-09-19 11:19:09,193 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001794
-2023-09-19 11:19:09,194 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001793
-2023-09-19 11:19:09,195 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001793
-2023-09-19 11:19:09,196 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001793
-2023-09-19 11:19:09,196 method C35 | # of iterations:9
-2023-09-19 11:19:09,196 method C35 | # of points that did not converge :0 
-
-2023-09-19 11:19:09,203 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.148 | qsr = -0.0001898
-2023-09-19 11:19:09,204 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+2023-09-19 16:21:10,387 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
+2023-09-19 16:21:10,390 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
   ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:19:09,205 /Users/xedhjo/Documents/Projects/2023_Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+2023-09-19 16:21:10,400 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
+2023-09-19 16:21:10,413 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
+2023-09-19 16:21:10,426 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
+2023-09-19 16:21:10,440 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
+2023-09-19 16:21:10,447 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
+2023-09-19 16:21:10,452 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,456 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,460 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,463 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,465 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,467 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,468 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,470 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,471 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,473 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,475 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,476 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,478 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:10,478 method C35 | # of iterations:19
+2023-09-19 16:21:10,478 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:10,494 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
   psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
 
-2023-09-19 11:19:09,206 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.312 | tsr = -0.1436 | qsr = -0.0001832
-2023-09-19 11:19:09,208 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.316 | tsr = -0.1413 | qsr = -0.0001806
-2023-09-19 11:19:09,211 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.317 | tsr = -0.1407 | qsr = -0.0001797
-2023-09-19 11:19:09,213 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001794
-2023-09-19 11:19:09,214 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001794
-2023-09-19 11:19:09,216 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001793
-2023-09-19 11:19:09,217 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001793
-2023-09-19 11:19:09,217 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.318 | tsr = -0.1405 | qsr = -0.0001793
-2023-09-19 11:19:09,218 method C35 | # of iterations:9
-2023-09-19 11:19:09,218 method C35 | # of points that did not converge :0 
+2023-09-19 16:21:11,882 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
+2023-09-19 16:21:11,885 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
 
-2023-09-19 11:54:23,269 /Users/xedhjo/opt/miniconda3/envs/env/lib/python3.11/site-packages/IPython/core/magics/pylab.py:162: UserWarning: pylab import has clobbered these variables: ['datetime', 'place']
-`%matplotlib` prevents importing * from pylab and numpy
-  warn("pylab import has clobbered these variables: %s"  % clobbered +
+2023-09-19 16:21:11,895 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
+2023-09-19 16:21:11,908 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
+2023-09-19 16:21:11,920 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
+2023-09-19 16:21:11,930 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
+2023-09-19 16:21:11,937 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
+2023-09-19 16:21:11,941 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,946 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,949 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,952 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,954 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,956 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,958 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,959 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,961 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,962 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,964 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,965 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,967 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:11,968 method C35 | # of iterations:19
+2023-09-19 16:21:11,968 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:11,984 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:12,004 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.228 | tsr = -0.1111 | qsr = -0.0001953
+2023-09-19 16:21:12,007 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:12,017 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.245 | tsr = -0.1069 | qsr = -0.0001877
+2023-09-19 16:21:12,030 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.249 | tsr = -0.1048 | qsr = -0.0001842
+2023-09-19 16:21:12,042 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1043 | qsr = -0.0001831
+2023-09-19 16:21:12,052 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.1041 | qsr = -0.0001827
+2023-09-19 16:21:12,058 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001826
+2023-09-19 16:21:12,063 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,067 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,071 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,074 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,076 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,078 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,079 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,081 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,083 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,084 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,086 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,087 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,089 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.25 | tsr = -0.104 | qsr = -0.0001825
+2023-09-19 16:21:12,089 method C35 | # of iterations:19
+2023-09-19 16:21:12,089 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:12,105 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:12,829 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:12,833 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0772 | qsr = -0.0001601
+2023-09-19 16:21:12,836 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:12,846 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0751 | qsr = -0.0001563
+2023-09-19 16:21:12,859 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0744 | qsr = -0.0001546
+2023-09-19 16:21:12,872 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:12,881 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:12,886 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:12,889 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:12,891 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:12,892 method C35 | # of iterations:8
+2023-09-19 16:21:12,892 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:12,926 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:12,956 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0772 | qsr = -0.0001601
+2023-09-19 16:21:12,962 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:12,972 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0751 | qsr = -0.0001563
+2023-09-19 16:21:12,985 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0744 | qsr = -0.0001546
+2023-09-19 16:21:12,998 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:13,007 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:13,012 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:13,015 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:13,017 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0742 | qsr = -0.0001543
+2023-09-19 16:21:13,017 method C35 | # of iterations:8
+2023-09-19 16:21:13,017 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:13,052 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:13,056 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.275 | tsr = -0.0773 | qsr = -0.0001662
+2023-09-19 16:21:13,059 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:13,069 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.288 | tsr = -0.0752 | qsr = -0.0001621
+2023-09-19 16:21:13,082 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0745 | qsr = -0.0001603
+2023-09-19 16:21:13,095 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 16:21:13,104 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 16:21:13,109 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 16:21:13,112 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 16:21:13,114 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0743 | qsr = -0.0001599
+2023-09-19 16:21:13,115 method C35 | # of iterations:8
+2023-09-19 16:21:13,115 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:13,141 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:13,141 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0892 | qsr = -0.0002022
+2023-09-19 16:21:13,142 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:13,143 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.09 | qsr = -0.0002044
+2023-09-19 16:21:13,144 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,145 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,146 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,147 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,147 method C35 | # of iterations:6
+2023-09-19 16:21:13,147 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:13,150 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:13,150 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0892 | qsr = -0.0002022
+2023-09-19 16:21:13,150 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:13,151 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.09 | qsr = -0.0002044
+2023-09-19 16:21:13,153 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,154 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,155 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,156 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.094 | tsr = -0.0896 | qsr = -0.0002033
+2023-09-19 16:21:13,156 method C35 | # of iterations:6
+2023-09-19 16:21:13,156 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:13,158 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:13,159 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.092 | tsr = -0.0895 | qsr = -0.0002776
+2023-09-19 16:21:13,159 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:13,160 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.0904 | qsr = -0.0002814
+2023-09-19 16:21:13,161 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.0002789
+2023-09-19 16:21:13,162 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
+2023-09-19 16:21:13,164 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
+2023-09-19 16:21:13,165 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.095 | tsr = -0.09 | qsr = -0.000279
+2023-09-19 16:21:13,165 method C35 | # of iterations:6
+2023-09-19 16:21:13,165 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:14,233 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:14,235 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0573 | qsr = -0.0001311
+2023-09-19 16:21:14,236 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:14,241 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001308
+2023-09-19 16:21:14,247 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.057 | qsr = -0.0001307
+2023-09-19 16:21:14,252 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 16:21:14,255 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 16:21:14,256 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 16:21:14,258 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 16:21:14,259 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 16:21:14,260 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001307
+2023-09-19 16:21:14,261 method C35 | # of iterations:9
+2023-09-19 16:21:14,261 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:14,267 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-09-19 16:21:14,276 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-09-19 16:21:14,278 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0574 | qsr = -0.0001312
+2023-09-19 16:21:14,279 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:14,284 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0572 | qsr = -0.0001308
+2023-09-19 16:21:14,290 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,295 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,298 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,299 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,301 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,302 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,303 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.283 | tsr = -0.0571 | qsr = -0.0001308
+2023-09-19 16:21:14,304 method C35 | # of iterations:9
+2023-09-19 16:21:14,304 method C35 | # of points that did not converge :0 
+
+2023-09-19 16:21:14,310 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-09-19 16:21:14,315 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:534: RuntimeWarning: invalid value encountered in power
+  xtmp = np.power(1-alpha*zol, beta)
+
+2023-09-19 16:21:14,318 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:420: RuntimeWarning: invalid value encountered in power
+  xtmp = np.power(1-alpha*zol, beta)
+
+2023-09-19 16:21:14,319 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:709: RuntimeWarning: invalid value encountered in log
+  hol0 <= -1.574, wind*kappa/(np.log(-1.574*monob/zo) -
+
+2023-09-19 16:21:14,319 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:712: RuntimeWarning: invalid value encountered in power
+  1.14*(np.power(-hin[0]/monob, 1/3) -
+
+2023-09-19 16:21:14,319 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:716: RuntimeWarning: invalid value encountered in log
+  hol0 > 1, wind*kappa/(np.log(monob/zo)+5-5*zo/monob +
+
+2023-09-19 16:21:14,319 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:717: RuntimeWarning: invalid value encountered in log
+  5*np.log(hin[0]/monob)+hin[0]/monob-1), usr)
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:723: RuntimeWarning: invalid value encountered in log
+  hol1 < -0.465, kappa*dt/(np.log((-0.465*monob)/zot) -
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:726: RuntimeWarning: invalid value encountered in power
+  np.power(-hin[1]/monob, -1/3))), tsr)
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:729: RuntimeWarning: invalid value encountered in log
+  hol1 > 1, kappa*(dt)/(np.log(monob/zot)+5-5*zot/monob +
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:730: RuntimeWarning: invalid value encountered in log
+  5*np.log(hin[1]/monob)+hin[1]/monob-1), tsr)
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:736: RuntimeWarning: invalid value encountered in log
+  hol2 < -0.465, kappa*dq/(np.log((-0.465*monob)/zoq) -
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:740: RuntimeWarning: invalid value encountered in power
+  np.power(-hin[2]/monob, -1/3))), qsr)
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:742: RuntimeWarning: invalid value encountered in log
+  qsr = np.where(hol2 > 1, kappa*dq/(np.log(monob/zoq)+5-5*zoq/monob +
+
+2023-09-19 16:21:14,320 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:743: RuntimeWarning: invalid value encountered in log
+  5*np.log(hin[2]/monob) +
+
+2023-09-19 16:21:14,321 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.292 | tsr = -0.061 | qsr = -0.0001601
+2023-09-19 16:21:14,321 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-09-19 16:21:14,326 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0607 | qsr = -0.0001594
+2023-09-19 16:21:14,332 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,336 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,338 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,339 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,340 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,342 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,343 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,344 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,345 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,347 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,348 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,349 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,350 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001593
+2023-09-19 16:21:14,352 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001593
+2023-09-19 16:21:14,353 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,354 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,355 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,357 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,358 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,359 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,360 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,362 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,363 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,364 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,365 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,367 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,368 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,369 method UA | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.294 | tsr = -0.0606 | qsr = -0.0001592
+2023-09-19 16:21:14,369 method UA | # of iterations:30
+2023-09-19 16:21:14,369 method UA | # of points that did not converge :1 
+
+2023-09-19 16:21:14,376 /home/jedholm/Validating_Sailbuoy/notebooks/AirSeaFluxCode/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
 
